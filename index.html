@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <style>
+        .tform{
+            width: 500px;
+            height: 300px;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 10em auto;
+
+        }
+        #provice{
+            height: 25px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outf">
+        <div class="tform" >
+                <form action="" autocomplete="on" method="GET" name="test_form" novalidate target="_blank">
+                    <h2 align="center">人员信息录入</h2>
+                    <p>
+                        姓名<input type="text" name="name" id="name" style="width: 80px;height: 20px;" >
+                        男<input type="radio" name="gender" id="men">
+                        女<input type="radio" name="gender" id="women">
+                        籍贯<select name="provice" id="provice" size="1" >
+                            <optgroup label="广东">
+                                <option value="广州">广州</option>
+                                <option value="佛山">佛山</option>
+                                <option value="深圳">深圳</option>
+                                <option value="珠海">珠海</option>
+                                <option value="中山">中山</option>
+                                <option value="江门">江门</option>
+                                <option value="肇庆">肇庆</option>
+                                <option value="清远">清远</option>
+                                <option value="韶关">韶关</option>
+                                <option value="汕头">汕头</option>
+                                <option value="潮州">潮州</option>
+                                <option value="梅州">梅州</option>
+                            </optgroup>
+                            <optgroup label="广西">
+                                <option value="南宁">南宁</option>
+                                <option value="桂林">桂林</option>
+                                <option value="柳州">柳州</option>
+                                <option value="梧州">梧州</option>
+                                <option value="百色">百色</option>
+                                <option value="河池">河池</option>
+                                <option value="北海">北海</option>
+                                <option value="钦州">钦州</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p2>技能：</p2>
+                    <p>
+                        <input type="checkbox" name="cad" id="cad" value="CAD">CAD
+                        <input type="checkbox" name="max" id="max" value="3Ds MAX">3Ds MAX
+                        <input type="checkbox" name="photoshop" id="photoshop" value="Photoshop">Photoshop
+                        <input type="checkbox" name="sketchup" id="sketchup" value="SketchUp">SketchUp
+                        <input type="checkbox" name="effect" id="effect" value="After Effect">After Effect
+                    </p>
+                </form>
+        </div>
+</div>
+</body>
+</html>
